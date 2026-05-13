@@ -1,0 +1,13 @@
+Deleting directory C:\Users\benja\.gradle\wrapper\dists\gradle-9.4.1-bin\arn2x92ynaizyzdaamcbpbhtj\gradle-9.4.1
+Could not unzip C:\Users\benja\.gradle\wrapper\dists\gradle-9.4.1-bin\arn2x92ynaizyzdaamcbpbhtj\gradle-9.4.1-bin.zip to C:\Users\benja\.gradle\wrapper\dists\gradle-9.4.1-bin\arn2x92ynaizyzdaamcbpbhtj.
+Reason: C:\Users\benja\.gradle\wrapper\dists\gradle-9.4.1-bin\arn2x92ynaizyzdaamcbpbhtj\gradle-9.4.1\lib\gradle-runtime-api-info-9.4.1.jar (Access is denied)
+Exception in thread "main" java.io.FileNotFoundException: C:\Users\benja\.gradle\wrapper\dists\gradle-9.4.1-bin\arn2x92ynaizyzdaamcbpbhtj\gradle-9.4.1\lib\gradle-runtime-api-info-9.4.1.jar (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at org.gradle.wrapper.Install.unzip(SourceFile)
+	at org.gradle.wrapper.Install.unzipLocal(SourceFile)
+	at org.gradle.wrapper.Install$1.call(SourceFile:12)
+	at org.gradle.wrapper.GradleWrapperMain.lambda$prepareWrapper$0(SourceFile:23)
+	at org.gradle.wrapper.GradleWrapperMain.main(SourceFile:2)

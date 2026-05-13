@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.benjoe.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BenjoeMixin",
+    "OrbitalCameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "benjoe-addon-refmap.json"
+}

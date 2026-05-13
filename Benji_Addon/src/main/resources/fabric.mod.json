@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "benjoe-addon",
+  "version": "0.1.0",
+  "name": "BenjoeAddon",
+  "description": "Benji ESP, Chest ESP, Spawner ESP, Orbital Camera, Coords Logger, Chat Alerts, Player List, Auto Totem, Anti Hunger.",
+  "authors": [
+    "yourusername"
+  ],
+  "contact": {
+    "repo": "https://github.com/yourusername/BenjoeAddon"
+  },
+  "icon": "assets/benjoeaddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.benjoe.addon.BenjoeAddon"
+    ]
+  },
+  "mixins": [
+    "benjoe-addon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "255,140,0"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "~1.21.11",
+    "meteor-client": "*"
+  }
+}
